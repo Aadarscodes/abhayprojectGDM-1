@@ -1,0 +1,122 @@
+@media (min-width:900px) {
+    #bgText {
+        font-size: 60px;
+    }
+    #OurClientText {
+        font-size: 60px;
+        color: #c68b9179;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .column img {
+        float: left;
+    }
+    .flexBox {
+        display: flex;
+    }
+    .flexBox div {
+        width: 50%;
+    }
+    .gallary1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gallaryImg {
+        width: 350px;
+        height: 500px;
+    }
+    @media (max-width:800px) {
+        .scrollImg2 {
+            width: cover;
+        }
+    }
+    @media (min-width:800px) {
+        .scrollImg2 {
+            width: 31.5%;
+        }
+    }
+    /*about*/
+    #flexBox2 {
+        display: flex;
+    }
+    #flexBox2 .flexBox2Box {
+        width: 50%;
+    }
+}
+
+@media (max-width:900px) {
+    #bgText {
+        font-size: 40px;
+    }
+    #OurClientText {
+        font-size: 40px;
+        color: #c68b9174;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .scrollImg2 {
+        width: 100%;
+    }
+    .gallaryBox {
+        margin: 10px;
+        width: 360px;
+        height: 500px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+}
+
+
+
+#bgText {
+    color: #c68b9176;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#salonOffer {
+    filter: drop-shadow(2px 1px black);
+}
+
+@media (min-width:600px) {
+    .service_box3 {
+        display: flex;
+        place-content: center;
+        place-items: center;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .service_box3 {
+        display: grid;
+        place-content: center;
+        place-items: center;
+        row-gap: 40px;
+        margin-top: 30px;
+    }
+}
+
+.service_img_box {
+    width: 140px;
+    height: auto;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+}
+
+.service_img_box .service_img {
+    width: 120px;
+    height: 120px;
+    box-shadow: 1px 0px black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_title {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.service_title {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
